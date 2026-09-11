@@ -68,6 +68,12 @@ npm run build
 
 Polecenie `build` tworzy wersję produkcyjną w katalogu `dist`.
 
+## Publikacja w GitHub Pages
+
+Projekt zawiera gotowy workflow GitHub Actions. Po wysłaniu plików na gałąź
+`main` przejdź do **Settings → Pages** i w sekcji **Build and deployment** ustaw
+**Source: GitHub Actions**. Kolejne aktualizacje będą publikowane automatycznie.
+
 ## Struktura
 
 ```text
